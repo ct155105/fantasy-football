@@ -1,0 +1,48 @@
+# Python-specific
+__pycache__
+__pycache__/           # Ignore Python bytecode cache
+*.pyc                  # Ignore compiled Python files
+*.pyo                  # Ignore optimized Python files
+*.pyd                  # Ignore Windows Python dynamic link libraries
+*.egg-info/            # Ignore Python package metadata directories
+dist/                  # Ignore distribution directories
+build/                 # Ignore build directories
+*.egg                  # Ignore eggs
+
+# Virtual environments (e.g., virtualenv, venv, conda)
+venv/                  # Ignore venv directory
+env/                   # Ignore env directory
+*.env                  # Ignore .env files (environment variables)
+
+# Editor/IDE specific
+.vscode/               # Ignore Visual Studio Code settings
+.idea/                 # Ignore PyCharm/IntelliJ IDEA settings
+*.pycharm/             # Ignore PyCharm project files
+
+# Jupyter Notebook specific
+.ipynb_checkpoints/    # Ignore Jupyter Notebook checkpoints
+
+# macOS-specific
+.DS_Store              # Ignore macOS .DS_Store files
+
+# Compiled binaries
+*.so                   # Ignore shared libraries
+*.dll                  # Ignore Windows dynamic link libraries
+*.pyd                  # Ignore Windows Python dynamic link libraries
+
+# Logs and temporary files
+*.log                  # Ignore log files
+*.tmp                  # Ignore temporary files
+*.swp                  # Ignore Vim swap files
+
+# Data and database files
+*.sqlite               # Ignore SQLite database files
+
+# Project-specific
+myconfig.conf          # Ignore configuration files (example)
+
+# Ignore local settings
+config.local.yml       # Example: Ignore local configuration files
+
+# Other
+*.bak                  # Ignore backup files

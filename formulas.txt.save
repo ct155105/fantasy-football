@@ -1,0 +1,9 @@
+TotalStartersAtPosition = 2
+
+PlayersPPG
+
+PlayersLikelihoodToPlayMultiplier
+
+PlayerPPG * PlayersLikelihoodToPlay = weightedPPG
+
+PlaylikelihoodToPLay1 + PlayerlikelihoodToPlay2 ... = 2
